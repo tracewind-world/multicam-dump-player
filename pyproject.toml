@@ -1,0 +1,14 @@
+[project]
+name = "multicam-dump-player"
+version = "0.1.0"
+description = "Open recorder dumps that put many cameras in one file, and play them as a grid on one clock."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.9"
+dependencies = ["av>=12", "numpy", "opencv-python-headless"]
+
+[project.scripts]
+mcdump = "multicam_dump.cli:main"
+
+[project.urls]
+Homepage = "https://tracewind.world/formats/"
