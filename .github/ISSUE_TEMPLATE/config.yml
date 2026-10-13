@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: A recording that will not open (other formats)
+    url: https://tracewind.world/formats/
+    about: Guides for other proprietary DVR/NVR exports. This repository covers the "luo" multi-camera .dat only.

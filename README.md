@@ -18,9 +18,12 @@ recording at the same moment (the clocks painted in each picture agree). Laying 
 ## Install
 
 ```bash
-pip install av numpy opencv-python        # opencv-python-headless is enough if you do not need the player window
 git clone https://github.com/tracewind-world/multicam-dump-player && cd multicam-dump-player
+pip install .                            # installs the `mcdump` command; or run `python -m multicam_dump` straight from the folder
+pip install opencv-python                # only if you want the player window (`play`); the default install uses opencv-python-headless
 ```
+
+Tested with Python 3.12, PyAV 17.1 (FFmpeg 8) and OpenCV 5 on Windows.
 
 ## Use
 
